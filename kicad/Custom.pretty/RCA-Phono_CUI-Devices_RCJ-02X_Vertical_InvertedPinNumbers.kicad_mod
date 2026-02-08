@@ -1,0 +1,233 @@
+(footprint "RCA-Phono_CUI-Devices_RCJ-02X_Vertical_InvertedPinNumbers"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)")
+	(tags "RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI")
+	(property "Reference" "REF**"
+		(at -0.04 2.25 0)
+		(layer "F.SilkS")
+		(uuid "5b436b63-6f9f-433e-b8cf-199679643855")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RCA-Phono_CUI-Devices_RCJ-02X_Vertical_InvertedPinNumbers"
+		(at 0.06 -8 0)
+		(layer "F.Fab")
+		(uuid "5aa38e5f-9e97-40ed-adb3-40caf134a9c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d77801-4618-4a56-ac05-67092ebf413f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ab72b7a-ed5c-4355-9e55-90e84be415a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.25 -3)
+		(end -5.25 -1.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d14c9fba-ef0e-4ce6-9f84-2b14d6f0365b")
+	)
+	(fp_line
+		(start -5.25 -3)
+		(end -4.03 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a6a949c-f8c9-4404-80a5-9250fd63dbd6")
+	)
+	(fp_line
+		(start -5.25 3)
+		(end -5.25 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a98770b-e95a-4f94-a091-16589392fed9")
+	)
+	(fp_line
+		(start -5.25 3)
+		(end -4.02 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aeb69b3b-0347-402d-92a4-1472b8fe2082")
+	)
+	(fp_line
+		(start 5.25 -3)
+		(end 3.97 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2141143-e193-4975-9399-4cf28e944937")
+	)
+	(fp_line
+		(start 5.25 -3)
+		(end 5.25 -1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba9d11b6-425e-46d1-99f7-3f5c124e06ab")
+	)
+	(fp_line
+		(start 5.25 3)
+		(end 3.99 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cfdfecf-7e93-401e-9c01-4a4f154b3a4e")
+	)
+	(fp_line
+		(start 5.25 3)
+		(end 5.25 1.66)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3df5800-8200-403d-b667-3d0b7b387396")
+	)
+	(fp_arc
+		(start -4 -2.999999)
+		(mid -0.000001 -4.999999)
+		(end 3.999999 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9ea6e55-3c4a-4607-b77e-e28be81d253f")
+	)
+	(fp_arc
+		(start 3.96312 3.048554)
+		(mid -0.030486 4.999907)
+		(end -4 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15a6e26a-c02c-4a11-a0db-991e99a32453")
+	)
+	(fp_line
+		(start -6 -6)
+		(end 6 -6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2bc7109-3db4-48cd-8302-e36606f194c2")
+	)
+	(fp_line
+		(start -6 6)
+		(end -6 -6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3fa38b6-fd07-42b6-bae9-c95ab8fc27ff")
+	)
+	(fp_line
+		(start 6 -6)
+		(end 6 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef75b159-0428-472a-99b1-8109f19dbe37")
+	)
+	(fp_line
+		(start 6 6)
+		(end -6 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bec7c570-f4e8-4487-a018-81c05de504d8")
+	)
+	(pad "1" thru_hole circle
+		(at -5.15 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d691d4c-769b-421e-a1d2-dca10e51c0b5")
+	)
+	(pad "1" thru_hole circle
+		(at 5.15 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47cb8f9e-e852-4ed9-bb79-09596f3fac45")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.6)
+		(size 2.9 2.9)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2db9544d-56fc-44aa-bd3c-0839881474fa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/jwm_kicad_3dmodels_misc.3dshapes/RCA-Phono_CUI-Devices_RCJ-02X_Vertical.wrl"
+		(offset
+			(xyz 0 0 16.07)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
