@@ -1,0 +1,444 @@
+ÿØÿÛ«schematic
+  «component (-1500,300) 0 0
+    «symbol NE5532
+      «type: X»
+      «description: Machine generated symbol for NE5532»
+      «shorted pins: false»
+      «line (-200,550) (-200,-550) 0 0 0x1000000 -1 -1»
+      «line (-200,-550) (700,0) 0 0 0x1000000 -1 -1»
+      «line (700,0) (-200,550) 0 0 0x1000000 -1 -1»
+      «text (500,300) 1 15 0 0x1000000 -1 -1 "X1"»
+      «text (100,0) 1 15 0 0x1000000 -1 -1 "OPA161x"»
+      «pin (-200,-300) (50,20) 1 7 0 0x0 -1 "+"»
+      «pin (-200,400) (50,10) 1 7 0 0x0 -1 "-"»
+      «pin (200,300) (20,-120) 1 11 0 0x0 -1 ""»
+      «pin (200,-300) (-30,160) 1 7 0 0x0 -1 ""»
+      «pin (700,0) (-20,0) 1 11 0 0x0 -1 ""»
+    »
+  »
+  «component (-7700,2600) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "12"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-7700,1400) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V2"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "12"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1400,3100) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R1"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "3.6K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1400,2400) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R2"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "3.6K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1400,1800) 2 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (130,0) 1 110 0 0x1000000 -1 -1 "C1"»
+      «text (-130,0) 1 109 0 0x1000000 -1 -1 "510p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (2300,1000) 0 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "C2"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "510p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (2300,-2900) 0 1
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "C3"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "1p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (3400,1000) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R3"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "10K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (3400,-2900) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R4"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "10K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1500,-3600) 0 0
+    «symbol NE5532
+      «type: X»
+      «description: Machine generated symbol for NE5532»
+      «library file: C:\Users\pontu\OneDrive\Documents\QSPICE\Models\OPA161x.LIB»
+      «shorted pins: false»
+      «line (-200,550) (-200,-550) 0 0 0x1000000 -1 -1»
+      «line (-200,-550) (700,0) 0 0 0x1000000 -1 -1»
+      «line (700,0) (-200,550) 0 0 0x1000000 -1 -1»
+      «text (500,300) 1 15 0 0x1000000 -1 -1 "X2"»
+      «text (100,0) 1 15 0 0x1000000 -1 -1 "OPA161x"»
+      «pin (-200,-300) (50,20) 1 7 0 0x0 -1 "+"»
+      «pin (-200,400) (50,10) 1 7 0 0x0 -1 "-"»
+      «pin (200,300) (20,-120) 1 11 0 0x0 -1 ""»
+      «pin (200,-300) (-30,160) 1 7 0 0x0 -1 ""»
+      «pin (700,0) (-20,0) 1 11 0 0x0 -1 ""»
+    »
+  »
+  «component (-1300,-4800) 2 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (130,0) 1 110 0 0x1000000 -1 -1 "C4"»
+      «text (-130,0) 1 109 0 0x1000000 -1 -1 "510p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1300,-5600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R5"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "3.6K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1300,-6400) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R6"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "3.6K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-4100,-600) 0 1
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "C5"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "1p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (4700,1800) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R7"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "140"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (4700,-3600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R8"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "140"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (5700,1000) 0 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "C6"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "2.2n"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (5700,-4200) 0 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "C7"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "2.2n"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (7200,-4100) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "RLOAD"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "1K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-5900,-400) 0 0
+    «symbol I
+      «type: I»
+      «description: Current Source»
+      «shorted pins: false»
+      «line (0,200) (0,150) 0 0 0x1000000 -1 -1»
+      «line (0,-150) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-25,102) (25,98) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,75) (2,125) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-98) (25,-102) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-100,-150) (100,50) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-100,-50) (100,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "I1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "SINE 0 3.5m 1K"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+    »
+  »
+  «net (-1300,-300) 1 13 0 "VEE"»
+  «net (-1300,1000) 1 14 0 "VCC"»
+  «net (-7200,1800) 1 13 0 "GND"»
+  «net (-7700,800) 1 13 0 "VEE"»
+  «net (-7700,3200) 1 14 0 "VCC"»
+  «net (-2100,-900) 1 13 0 "GND"»
+  «net (-6200,1800) 1 11 0 "DAC"»
+  «net (-1300,-4200) 1 13 0 "VEE"»
+  «net (-1300,-2900) 1 14 0 "VCC"»
+  «net (-6200,-3200) 1 11 0 "DACB"»
+  «net (5700,-4700) 1 13 0 "GND"»
+  «net (5700,300) 1 13 0 "GND"»
+  «net (8100,-3600) 1 7 0 "OUT"»
+  «junction (7200,-3600)»
+  «junction (5700,1800)»
+  «junction (5700,-3600)»
+  «junction (5700,-4600)»
+  «junction (3400,1800)»
+  «junction (3400,-1800)»
+  «junction (3400,-3600)»
+  «junction (2300,1800)»
+  «junction (2300,-1800)»
+  «junction (2300,-3600)»
+  «junction (200,2400)»
+  «junction (200,1800)»
+  «junction (0,-3600)»
+  «junction (0,-4800)»
+  «junction (0,-5600)»
+  «junction (-2700,2400)»
+  «junction (-2700,1800)»
+  «junction (-3300,-3200)»
+  «junction (-3300,-4800)»
+  «junction (-3300,-5600)»
+  «junction (-4100,1800)»
+  «junction (-4100,-3200)»
+  «junction (-5900,1800)»
+  «junction (-5900,-3200)»
+  «junction (-7700,1900)»
+  «wire (-1300,0) (-1300,-300) "VEE"»
+  «wire (-1300,1000) (-1300,600) "VCC"»
+  «wire (-7700,1200) (-7700,800) "VEE"»
+  «wire (-7700,3200) (-7700,2800) "VCC"»
+  «wire (-7700,1900) (-7700,1600) "GND"»
+  «wire (-7200,1800) (-7200,1900) "GND"»
+  «wire (-7200,1900) (-7700,1900) "GND"»
+  «wire (-7700,2400) (-7700,1900) "GND"»
+  «wire (-1700,0) (-2100,0) "GND"»
+  «wire (-2100,0) (-2100,-900) "GND"»
+  «wire (200,2400) (200,3100) "N01"»
+  «wire (-800,300) (200,300) "N01"»
+  «wire (-1600,3100) (-2700,3100) "DAC"»
+  «wire (-2700,2400) (-2700,1800) "DAC"»
+  «wire (200,300) (200,1800) "N01"»
+  «wire (-2700,1800) (-1600,1800) "DAC"»
+  «wire (-1200,2400) (200,2400) "N01"»
+  «wire (200,1800) (200,2400) "N01"»
+  «wire (-2700,3100) (-2700,2400) "DAC"»
+  «wire (-2700,2400) (-1600,2400) "DAC"»
+  «wire (-5900,1800) (-6200,1800) "DAC"»
+  «wire (-1700,700) (-2300,700) "N02"»
+  «wire (-2300,700) (-2300,1400) "N02"»
+  «wire (-2300,1400) (1600,1400) "N02"»
+  «wire (1600,1400) (1600,-1800) "N02"»
+  «wire (2300,1800) (2300,1200) "N01"»
+  «wire (2300,-1800) (2300,-2700) "N02"»
+  «wire (1600,-1800) (2300,-1800) "N02"»
+  «wire (2300,800) (2300,-1800) "N02"»
+  «wire (2300,-1800) (3400,-1800) "N02"»
+  «wire (3400,1200) (3400,1800) "N01"»
+  «wire (3400,-1800) (3400,800) "N02"»
+  «wire (3400,1800) (2300,1800) "N01"»
+  «wire (2300,-3100) (2300,-3600) "N03"»
+  «wire (2300,-3600) (3400,-3600) "N03"»
+  «wire (3400,-2700) (3400,-1800) "N02"»
+  «wire (3400,-3600) (3400,-3100) "N03"»
+  «wire (-1300,-3900) (-1300,-4200) "VEE"»
+  «wire (-1300,-2900) (-1300,-3300) "VCC"»
+  «wire (-5900,-3200) (-6200,-3200) "DACB"»
+  «wire (-2700,1800) (-2700,-3900) "DAC"»
+  «wire (-2700,-3900) (-1700,-3900) "DAC"»
+  «wire (-3300,-5600) (-3300,-6400) "DACB"»
+  «wire (-1700,-3200) (-3300,-3200) "DACB"»
+  «wire (-3300,-6400) (-1500,-6400) "DACB"»
+  «wire (-1100,-4800) (0,-4800) "N03"»
+  «wire (-3300,-3200) (-3300,-4800) "DACB"»
+  «wire (-3300,-4800) (-1500,-4800) "DACB"»
+  «wire (0,-5600) (0,-6400) "N03"»
+  «wire (0,-6400) (-1100,-6400) "N03"»
+  «wire (-1500,-5600) (-3300,-5600) "DACB"»
+  «wire (-3300,-4800) (-3300,-5600) "DACB"»
+  «wire (0,-4800) (0,-5600) "N03"»
+  «wire (0,-5600) (-1100,-5600) "N03"»
+  «wire (0,-4800) (0,-3600) "N03"»
+  «wire (-800,-3600) (0,-3600) "N03"»
+  «wire (-4100,-800) (-4100,-3200) "DACB"»
+  «wire (-2700,1800) (-4100,1800) "DAC"»
+  «wire (-3300,-3200) (-4100,-3200) "DACB"»
+  «wire (-4100,1800) (-4100,-400) "DAC"»
+  «wire (-1200,1800) (200,1800) "N01"»
+  «wire (2300,1800) (200,1800) "N01"»
+  «wire (2300,-3600) (0,-3600) "N03"»
+  «wire (5700,1800) (6500,1800) "N04"»
+  «wire (3400,1800) (4500,1800) "N01"»
+  «wire (3400,-3600) (4500,-3600) "N03"»
+  «wire (5700,-4600) (5700,-4700) "GND"»
+  «wire (4900,-3600) (5700,-3600) "OUT"»
+  «wire (5700,-3600) (5700,-4000) "OUT"»
+  «wire (5700,800) (5700,300) "GND"»
+  «wire (4900,1800) (5700,1800) "N04"»
+  «wire (5700,1800) (5700,1200) "N04"»
+  «wire (5700,-3600) (7200,-3600) "OUT"»
+  «wire (7200,-4300) (7200,-4600) "GND"»
+  «wire (7200,-3600) (7200,-3900) "OUT"»
+  «wire (7200,-4600) (5700,-4600) "GND"»
+  «wire (5700,-4400) (5700,-4600) "GND"»
+  «wire (7200,-3600) (8100,-3600) "OUT"»
+  «wire (-5900,-600) (-5900,-3200) "DACB"»
+  «wire (-4100,1800) (-5900,1800) "DAC"»
+  «wire (-4100,-3200) (-5900,-3200) "DACB"»
+  «wire (-5900,1800) (-5900,-200) "DAC"»
+  «wire (200,3100) (-1200,3100) "N01"»
+  «text (3100,-4400) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 100m 50m 1Âµ\n.four 1K 20 -1 v(out)"»
+  «text (22550,-15750) 0.65 7 1 0x1000000 -1 -1 "ï»¿*$\n* OPA161x\n*****************************************************************************\n* (C) Copyright 2022 Texas Instruments Incorporated. All rights reserved.                                            \n*****************************************************************************\n** This model is designed as an aid for customers of Texas Instruments.\n** TI and its licensors and suppliers make no warranties, either expressed\n** or implied, with respect to this model, including the warranties of \n** merchantability or fitness for a particular purpose.  The model is\n** provided solely on an "as is" basis.  The entire risk as to its quality\n** and performance is with the customer\n*****************************************************************************\n*\n* This model is subject to change without notice. Texas Instruments\n* Incorporated is not responsible for updating this model.\n*\n*****************************************************************************\n*\n** Released by: Online Design Tools, Texas Instruments Inc.\n* Part: OPA161x\n* Date: 24AUG2022\n* Model Type: Generic (suitable for all analysis types)\n* EVM Order Number: N/A \n* EVM Users Guide:  N/A \n* Datasheet: SBOS450C -JULY 2009-REVISED AUGUST 2014 \n* Created with Green-Williams-Lis Op Amp Macro-model Architecture\n*\n* Model Version: Final 1.5\n*\n*****************************************************************************\n*\n* Updates:\n*\n* Final 1.5\n* 1. Moved R_NOISELESS .model inside OPA161x subckt.\n* 2. Updated PSpice Symbol.\n*\n* Final 1.4\n* 1. Updated the current direction(i.e. IOUT- IOUT+) of IQ_SRC block to \n*    resolve Iout current direction issue.\n* 2. Added R_DIFF element in the model.\n*\n* Final 1.3\n* 1. Modified the capacitor(C14) value from 1F to 2.5uF in GND Float-IQ block  \n*    to resolve the convergence issue in single and asymmetric supply test.\n* 2. Remodeled CMRR last stage to resolve the issue in Voltage Noise result\n*    while simulating in PSpice.\n* 3. Updated the model name from OPA1611 to OPA161x.\n*\n* Final 1.2\n* 1. VOS drift feature is added \n* 2. Added Unique subckt name, removed Claw ABS.\n*\n* Final 1.1 \n* Release to Web.\n*\n*****************************************************************************\n* Model Usage Notes:\n* 1. The following parameters are modeled: \n*    a. OPEN-LOOP GAIN AND PHASE VS. FREQUENCY  WITH RL, CL EFFECTS (Aol)\n*    b. UNITY GAIN BANDWIDTH (GBW)\n*    c. INPUT COMMON-MODE REJECTION RATIO VS. FREQUENCY (CMRR)\n*    d. POWER SUPPLY REJECTION RATIO VS. FREQUENCY (PSRR)\n*    e. DIFFERENTIAL INPUT IMPEDANCE (Zid)\n*    f. COMMON-MODE INPUT IMPEDANCE (Zic)\n*    g. OPEN-LOOP OUTPUT IMPEDANCE VS. FREQUENCY (Zo)\n*    h. OUTPUT CURRENT THROUGH THE SUPPLY (Iout)\n*    i. INPUT VOLTAGE NOISE DENSITY VS. FREQUENCY (en)\n*    j. INPUT CURRENT NOISE DENSITY VS. FREQUENCY (in)\n*    k. OUTPUT VOLTAGE SWING vs. OUTPUT CURRENT (Vo)\n*    l. SHORT-CIRCUIT OUTPUT CURRENT (Isc)\n*    m. QUIESCENT CURRENT (Iq)\n*    n. SETTLING TIME VS. CAPACITIVE LOAD (ts)\n*    o. SLEW RATE (SR)\n*    p. SMALL SIGNAL OVERSHOOT VS. CAPACITIVE LOAD\n*    q. LARGE SIGNAL RESPONSE\n*    r. OVERLOAD RECOVERY TIME (tor)\n*    s. INPUT BIAS CURRENT (Ib)\n*    t. INPUT OFFSET CURRENT (Ios)\n*    u. INPUT OFFSET VOLTAGE (Vos)\n*    v. INPUT OFFSET VOLTAGE VS. TEMPERATURE (Vos Drift)\n*    w. INPUT COMMON-MODE VOLTAGE RANGE (Vcm)\n*    x. INPUT OFFSET VOLTAGE VS. INPUT COMMON-MODE VOLTAGE (Vos vs. Vcm)\n*    y. INPUT/OUTPUT ESD CELLS (ESDin, ESDout)\n* 2. OPA161x model is available in single core(OPA1611) and dual \n*    core(OPA1612).\n*****************************************************************************\n.SUBCKT OPA161x IN+ IN- VCC VEE OUT  \n*****************************************************************************\nC_C1          N24458 N24659  22.044F \nC_C10         N37029 N37037  117.6646N \nC_C11         MID N39473  1.175576P \nC_C12         N39884 N39892  413.8029F \nC_C13         0 N2392253  1F \nC_C14         0 N2392113  2.5U \nC_C15         0 N2392293  1F \nC_C16         MID N56849  1F \nC_C17         MID N57325  1F \nC_C18         MID N59747  1F \nC_C19         MID N59865  1F \nC_C2          N25921 N25929  214.32P \nC_C20         MID N65579  1F \nC_C21         MID N65697  1F \nC_C22         MID N68774  1F \nC_C23         N72398 MID  1F \nC_C24         MID N72391  1F \nC_C25         MID N81574  1P \nC_C26         MID N81664  1P \nC_C27         MID SW_OL_OPA161x  1N \nC_C28         VCLP MID  1P \nC_C29         VIMON MID  1P \nC_C3          N27785 N27793  318.31P \nC_C30         VOUT_S MID  1P \nC_C31         N2402147 N2402155  220.4P \nC_C32         MID N2419074  23.15998F \nC_C33         N2423000 N36262  1.428314P \nC_C4          N32347 MID  1F \nC_C5          CLAMP MID  925.2513P \nC_C6          N34005 N34013  106.1033F \nC_C_COM0      ESDP MID  2P \nC_C_COM1      MID ESDN  2P \nC_C_DIFF      ESDN ESDP  8P \nE_E1          MID 0 N2392113 0 1\nE_E2          N158495 MID CL_CLAMP MID 1\nE_E3          N161937 MID OUT MID 1\nG_G1          N24458 MID ESDP MID -162.65U\nG_G12         CLAW_CLAMP MID N36262 MID -1M\nG_G13         CL_CLAMP MID CLAW_CLAMP MID -1M\nG_G15         N37029 MID CL_CLAMP N45999 -89.0524\nG_G16         N39124 MID N37037 MID -270.7824\nG_G17         N39884 MID N39417 MID -1\nG_G18         VCC_B 0 VCC 0 -1\nG_G19         VEE_B 0 VEE 0 -1\nG_G2          N25415 N25397 N25248 MID -1M\nG_G20         VCC_CLP MID N72398 MID -1M\nG_G21         VEE_CLP MID N72391 MID -1M\nG_G22         N1356345 MID N1356333 MID -1\nG_G23         N1356409 MID N1356429 MID -1\nG_G24         N2402147 MID N24659 MID -1\nG_G25         N25248 MID N2402155 MID -140.5\nG_G26         N2419074 MID VSENSE MID -1U\nG_G27         N2423000 MID N34013 MID -21.5263\nG_G3          N25921 MID VEE_B MID -115.72M\nG_G4          N27785 MID VCC_B MID -121.95M\nG_G5          N28678 N28438 N27793 N25929 -1M\nG_G6          VSENSE MID CLAMP MID -1M\nG_G8          N34005 MID N2419074 MID -21.5263\nI_I_B         N24207 MID DC 60N  \nI_I_OS        ESDN MID DC 35N  \nI_I_Q         VCC VEE DC 3.6M  \nR_R1          IN+ ESDP R_NOISELESS 10M\nR_R10         MID N25921 R_NOISELESS 1\nR_R11         MID N25929 R_NOISELESS 79.383\nR_R12         N27793 N27785 R_NOISELESS 100MEG\nR_R13         MID N27785 R_NOISELESS 1\nR_R14         MID N27793 R_NOISELESS 74.0813\nR_R15         N28438 N25415 R_NOISELESS 1M\nR_R16         N28678 N28438 R_NOISELESS 1K\nR_R17         N31303 ESDN R_NOISELESS 1M\nR_R18         MID N31389 R_NOISELESS 1T\nR_R19         MID N31737 R_NOISELESS 1T\nR_R2          IN- ESDN R_NOISELESS 10M\nR_R20         N32236 MID R_NOISELESS 1\nR_R21         N32347 N32236 R_NOISELESS 1M\nR_R22         MID N32510 R_NOISELESS 1MEG\nR_R23         MID CLAMP R_NOISELESS 1MEG\nR_R24         MID VSENSE R_NOISELESS 1K\nR_R25         N34013 N34005 R_NOISELESS 10K\nR_R26         MID N34005 R_NOISELESS 1\nR_R27         MID N34013 R_NOISELESS 487.1795\nR_R3          ESDP MID R_NOISELESS 1T\nR_R32         MID CLAW_CLAMP R_NOISELESS 1K\nR_R33         MID CL_CLAMP R_NOISELESS 1K\nR_R34         N37037 N37029 R_NOISELESS 10K\nR_R35         MID N37029 R_NOISELESS 1\nR_R36         MID N37037 R_NOISELESS 37.0669\nR_R37         MID N39124 R_NOISELESS 1\nR_R38         N39417 N39124 R_NOISELESS 1.312633MEG\nR_R39         N39473 N39417 R_NOISELESS 10K\nR_R4          MID ESDN R_NOISELESS 1T\nR_R40         N39892 N39884 R_NOISELESS 10K\nR_R41         MID N39884 R_NOISELESS 1\nR_R42         MID N39892 R_NOISELESS 9.268057\nR_R43         MID N46041 R_NOISELESS 1\nR_R46         VCC_B 0 R_NOISELESS 1\nR_R47         VCC_B N2392253 R_NOISELESS 1M\nR_R48         N2392253 N2392113 R_NOISELESS 1MEG\nR_R49         N2392113 0 R_NOISELESS 1T\nR_R5          MID N24458 R_NOISELESS 1\nR_R50         N2392113 N2392293 R_NOISELESS 1MEG\nR_R51         N2392293 VEE_B R_NOISELESS 1M\nR_R52         VEE_B 0 R_NOISELESS 1\nR_R53         VCC_CLP MID R_NOISELESS 1T\nR_R54         N55560 MID R_NOISELESS 1\nR_R55         N56849 N55560 R_NOISELESS 1M\nR_R56         VEE_CLP MID R_NOISELESS 1T\nR_R57         N57321 MID R_NOISELESS 1\nR_R58         N57325 N57321 R_NOISELESS 1M\nR_R59         N59739 MID R_NOISELESS 1T\nR_R6          N24659 N24458 R_NOISELESS 100MEG\nR_R60         N59743 MID R_NOISELESS 1\nR_R61         N59747 N59743 R_NOISELESS 1M\nR_R62         N59865 N59881 R_NOISELESS 1M\nR_R63         N59905 MID R_NOISELESS 1T\nR_R64         N59881 MID R_NOISELESS 1\nR_R65         N65567 MID R_NOISELESS 1T\nR_R66         N65575 MID R_NOISELESS 1\nR_R67         N65579 N65575 R_NOISELESS 1M\nR_R68         N65697 N65713 R_NOISELESS 1M\nR_R69         N65737 MID R_NOISELESS 1T\nR_R7          MID N24659 R_NOISELESS 716.778969K\nR_R70         N65713 MID R_NOISELESS 1\nR_R71         N68774 VSENSE R_NOISELESS 1M\nR_R72         VCC_B N72064 R_NOISELESS 1K\nR_R73         N72064 N72398 R_NOISELESS 1M\nR_R74         N72073 VEE_B R_NOISELESS 1K\nR_R75         N72073 N72391 R_NOISELESS 1M\nR_R76         MID VCC_CLP R_NOISELESS 1K\nR_R77         VEE_CLP MID R_NOISELESS 1K\nR_R78         N1356409 MID R_NOISELESS 1\nR_R79         N1356345 MID R_NOISELESS 1\nR_R8          N25415 N25397 R_NOISELESS 1K\nR_R80         V11 N81574 R_NOISELESS 100\nR_R81         V12 N81664 R_NOISELESS 100\nR_R82         N81756 MID R_NOISELESS 1\nR_R83         N81756 SW_OL_OPA161x R_NOISELESS 100\nR_R84         N158495 VCLP R_NOISELESS 100\nR_R85         N2402155 N2402147 R_NOISELESS 10K\nR_R86         MID N2402147 R_NOISELESS 1\nR_R87         MID N2402155 R_NOISELESS 71.69\nR_R88         MID N25248 R_NOISELESS 1\nR_R89         MID N2419074 R_NOISELESS 1MEG\nR_R9          N25929 N25921 R_NOISELESS 100MEG\nR_R90         N36262 N2423000 R_NOISELESS 10K\nR_R91         MID N2423000 R_NOISELESS 1\nR_R92         MID N36262 R_NOISELESS 487.1795\nR_RDUMMY      MID N45999 R_NOISELESS 1.41K\nR_R_DIFF      ESDN ESDP R_NOISELESS 100MEG\nR_RX          N45999 N46041 R_NOISELESS 14.1K\nR_RX1         MID N161737 R_NOISELESS 1T\nR_RX2         VIMON N161737 R_NOISELESS 100\nR_RX3         MID N161937 R_NOISELESS 1T\nR_RX4         VOUT_S N161937 R_NOISELESS 100\nV_VCM_MAX     N31389 VCC_B -2\nV_VCM_MIN     N31737 VEE_B 2\nV_V_GRN       N65737 MID -47\nV_V_GRP       N65567 MID 48\nV_V_ISCN      N59905 MID -47\nV_V_ISCP      N59739 MID 49.8\nV_V_ORN       N1356333 VCLP -13.759\nV_V_ORP       N1356429 VCLP 13.6794\nX_H1          N45999 OUT N161737 MID BLOCK_DC_H1_OPA161x \nX_H2          N1356115 N1356409 V12 MID BLOCK_DC_H2_OPA161x \nX_H3          N1356061 N1356345 V11 MID BLOCK_DC_H3_OPA161x \nX_S1          N1356061 CLAMP N1356061 CLAMP BLOCK_DC_S1_OPA161x \nX_S2          CLAMP N1356115 CLAMP N1356115 BLOCK_DC_S2_OPA161x \nX_U1          ESDP N24207 VNSE_OPA161x PARAMS: FLW=0.1 GLF=0.01152 RNV=1.8205\nX_U10         VCC_CLP VEE_CLP VOUT_S MID N55560 N57321 CLAMP_AMP_LO_OPA161x PARAMS: G=1\nX_U11         N59739 N59905 VIMON MID N59743 N59881 CLAMP_AMP_LO_OPA161x PARAMS: G=1\nX_U12         N65567 N65737 N68774 MID N65575 N65713 CLAMP_AMP_HI_OPA161x PARAMS: G=10\nX_U16         MID N81756 N81574 N81664 OL_SENSE_OPA161x\nX_U18         VIMON MID N72064 VCC_B CLAWP_OPA161x\nX_U19         MID VIMON VEE_B N72073 CLAWN_OPA161x\nX_U20         ESDN ESDP ESD_BB_OPA161x\nX_U21         OUT VCC VEE ESD_OUT_OPA161x\nX_U22         N59747 N59865 CL_CLAMP MID CL_SRC_OPA161x PARAMS: GAIN=1 IPOS=0.2016E1\n+  INEG=-0.1974E1\nX_U23         N65579 N65697 CLAMP MID GR_SRC_OPA161x PARAMS: GAIN=1 IPOS=0.056064E1\n+  INEG=-0.056064E1\nX_U25         SW_OL_OPA161x MID N37029 N37037 SW_OL_OPA161x PARAMS:\nX_U26         VIMON MID MID VCC IQ_SRC_OPA161x PARAMS: GAIN=1E-3\nX_U27         MID VIMON VEE MID IQ_SRC_OPA161x PARAMS: GAIN=1E-3\nX_U30         N32347 N31303 MID N32510 AOL_1_OPA161x PARAMS: GAIN=1E-4 IPOS=.5 INEG=-.5\nX_U31         N32510 MID MID CLAMP AOL_2_OPA161x PARAMS: GAIN=0.0053649 IPOS=0.025232\n+  INEG=-0.025211\nX_U32         N39892 MID MID N46041 ZO_SRC_OPA161x PARAMS: GAIN=1079.9748 IPOS=1551E4\n+  INEG=-1748.4E4\nX_U35         N56849 N57325 CLAW_CLAMP MID CLAW_SRC_OPA161x PARAMS: GAIN=1\n+  IPOS=0.1008E1 INEG=-0.0987E1\nX_U36         N24207 MID FEMT_OPA161x PARAMS: FLWF=0.1 GLFF=19.0969 RNVF=3.366E6\nX_U37         ESDN MID FEMT_OPA161x PARAMS: FLWF=0.1 GLFF=19.0969 RNVF=3.366E6\nX_U4          N25397 N24207 VOS_DRIFT_OPA161x PARAMS: DC=9.729E-05 POL=1 DRIFT=1E-06\nX_U5          ESDN ESDP VCC VEE ESD_IN_OPA161x\nX_U6          N28678 MID N32236 MID N31389 N31737 VCM_CLAMP_OPA161x PARAMS: GAIN=1\n.MODEL R_NOISELESS RES (T_ABS=-273.15)\n.ENDS OPA161x\n*\n.SUBCKT BLOCK_DC_H1_OPA161x 1 2 3 4  \nH_H1         3 4 VH_H1 1K\nVH_H1         1 2 0V\n.ENDS  BLOCK_DC_H1_OPA161x\n*\n.SUBCKT BLOCK_DC_H2_OPA161x 1 2 3 4  \nH_H2         3 4 VH_H2 1\nVH_H2         1 2 0V\n.ENDS  BLOCK_DC_H2_OPA161x\n*\n.SUBCKT BLOCK_DC_H3_OPA161x 1 2 3 4  \nH_H3         3 4 VH_H3 -1\nVH_H3         1 2 0V\n.ENDS  BLOCK_DC_H3_OPA161x\n*\n.SUBCKT BLOCK_DC_S1_OPA161x 1 2 3 4  \nS_S1         3 4 1 2 _S1\nRS_S1         1 2 1G\n.MODEL         _S1 VSWITCH ROFF=1E12 RON=10M VOFF=0.0V VON=10MV\n.ENDS  BLOCK_DC_S1_OPA161x\n*\n.SUBCKT BLOCK_DC_S2_OPA161x 1 2 3 4  \nS_S2         3 4 1 2 _S2\nRS_S2         1 2 1G\n.MODEL         _S2 VSWITCH ROFF=1E12 RON=10M VOFF=0.0V VON=10MV\n.ENDS  BLOCK_DC_S2_OPA161x\n*\n.SUBCKT AOL_1_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1E-4 IPOS=.5 INEG=-.5\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  AOL_1_OPA161x\n*\n.SUBCKT AOL_2_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=0.0053649 IPOS=0.025232 INEG=-0.025211\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  AOL_2_OPA161x\n*\n.SUBCKT CLAMP_AMP_HI_OPA161x VC+ VC- VIN COM VO+ VO- PARAMS: G=10\nGVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}\nGVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}\n.ENDS  CLAMP_AMP_HI_OPA161x\n*\n.SUBCKT CLAMP_AMP_LO_OPA161x VC+ VC- VIN COM VO+ VO- PARAMS: G=1\nGVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}\nGVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}\n.ENDS  CLAMP_AMP_LO_OPA161x\n*\n.SUBCKT CLAWN_OPA161x VC+ VC- IOUT+ IOUT-\nG1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} =\n+(0, 2.1349E-4)\n+(45.4769, 0.0008314)\n+(46.5224, 0.00085953)\n+(47, 0.0010745)\n.ENDS  CLAWN_OPA161x\n*\n.SUBCKT CLAWP_OPA161x VC+ VC- IOUT+ IOUT-\nG1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} =\n+(0, 2.1334E-4)\n+(48.1473, 0.001)\n+(49.2541, 0.0012)\n+(49.8, 0.0013)\n.ENDS  CLAWP_OPA161x\n*\n.SUBCKT CLAW_SRC_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=0.1008E1 INEG=-0.0987E1\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  CLAW_SRC_OPA161x\n*\n.SUBCKT CL_SRC_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=0.2016E1 INEG=-0.1974E1\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  CL_SRC_OPA161x\n*\n.SUBCKT ESD_BB_OPA161x ESDN ESDP\n.MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=700E-3 VOFF=0)\nS1 ESDN ESDP ESDN ESDP ESD_SW\nS2 ESDP ESDN ESDP ESDN ESD_SW\n.ENDS  ESD_BB_OPA161x\n*\n.SUBCKT ESD_IN_OPA161x ESDN ESDP VCC VEE\n.MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=500E-3 VOFF=100E-3)\nS1 ESDN VCC ESDN VCC ESD_SW\nS2 ESDP VCC ESDP VCC ESD_SW\nS3 VEE ESDN VEE ESDN ESD_SW\nS4 VEE ESDP VEE ESDP ESD_SW\n.ENDS  ESD_IN_OPA161x\n*\n.SUBCKT ESD_OUT_OPA161x OUT VCC VEE\n.MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=500E-3 VOFF=100E-3)\nS1 OUT VCC OUT VCC ESD_SW\nS2 VEE OUT VEE OUT ESD_SW\n.ENDS  ESD_OUT_OPA161x\n*\n.SUBCKT FEMT_OPA161x 1 2 PARAMS: FLWF=0.1 GLFF=19.0969 RNVF=3.366E6\n.MODEL DVNF D KF={PWR(FLWF,0.5)/1E11} IS=1.0E-16\nI1 0 7 10E-3\nI2 0 8 10E-3\nD1 7 0 DVNF\nD2 8 0 DVNF\nE1 3 6 7 8 {GLFF}\nR1 3 0 1E9\nR2 3 0 1E9\nR3 3 6 1E9\nE2 6 4 5 0 10\nR4 5 0 {RNVF}\nR5 5 0 {RNVF}\nR6 3 4 1E9\nR7 4 0 1E9\nG1 1 2 3 4 1E-6\n.ENDS  FEMT_OPA161x\n*\n.SUBCKT GR_SRC_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1 IPOS=0.056064E1 INEG=-0.056064E1\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  GR_SRC_OPA161x\n*\n.SUBCKT IQ_SRC_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1E-3\nG1 IOUT- IOUT+ VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}\n.ENDS  IQ_SRC_OPA161x\n*\n.SUBCKT OL_SENSE_OPA161x COM SW+ OLN OLP\nGSW+ COM SW+ VALUE = {IF((V(OLN,COM)>10E-3 | V(OLP,COM)>10E-3),1,0)}\n.ENDS  OL_SENSE_OPA161x\n*\n.SUBCKT SW_OL_OPA161x SW_OL_OPA161x MID CAP_L CAP_R\n.MODEL OL_SW VSWITCH(RON=1E-3 ROFF=1E12 VON=900E-3 VOFF=800E-3)\nS1 CAP_L CAP_R SW_OL_OPA161x MID OL_SW\n.ENDS  SW_OL_OPA161x\n*\n.SUBCKT VCM_CLAMP_OPA161x VIN+ VIN- IOUT- IOUT+ VP+ VP- PARAMS: GAIN=1\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VIN+,VIN-),V(VP-,VIN-), V(VP+,VIN-))}\n.ENDS  VCM_CLAMP_OPA161x\n*\n.SUBCKT VNSE_OPA161x 1 2 PARAMS: FLW=0.1 GLF=0.01152 RNV=1.8205\n.MODEL DVN D KF={PWR(FLW,0.5)/1E11} IS=1.0E-16\nI1 0 7 10E-3\nI2 0 8 10E-3\nD1 7 0 DVN\nD2 8 0 DVN\nE1 3 6 7 8 {GLF}\nR1 3 0 1E9\nR2 3 0 1E9\nR3 3 6 1E9\nE2 6 4 5 0 10\nR4 5 0 {RNV}\nR5 5 0 {RNV}\nR6 3 4 1E9\nR7 4 0 1E9\nE3 1 2 3 4 1\n.ENDS  VNSE_OPA161x\n*\n.SUBCKT VOS_DRIFT_OPA161x VOS+ VOS- PARAMS: DC=9.729E-05 POL=1 DRIFT=1E-06\nE1 VOS+ VOS- VALUE={DC+POL*DRIFT*(TEMP-27)}\n.ENDS  VOS_DRIFT_OPA161x\n*\n.SUBCKT ZO_SRC_OPA161x VC+ VC- IOUT+ IOUT- PARAMS: GAIN=1079.9748 IPOS=1551E4 INEG=-1748.4E4\nG1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}\n.ENDS  ZO_SRC_OPA161x\n*\n"»
+»
+
