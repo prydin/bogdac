@@ -3542,7 +3542,7 @@
 		(at 224.79 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3583,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-1AEB472C"
+		(property "Description" "ERA-3AEB472V"
 			(at 224.79 93.98 0)
 			(effects
 				(font
@@ -3888,7 +3888,7 @@
 		(at 224.79 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3929,7 +3929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-1AEB472C"
+		(property "Description" "ERA-3AEB472V"
 			(at 224.79 67.31 0)
 			(effects
 				(font
@@ -3976,7 +3976,7 @@
 		(at 96.52 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4017,7 +4017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-1AEB472C"
+		(property "Description" "ERA-3AEB472V"
 			(at 96.52 67.31 0)
 			(effects
 				(font
@@ -7564,7 +7564,7 @@
 		(at 96.52 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7605,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-1AEB472C"
+		(property "Description" "ERA-3AEB472V"
 			(at 96.52 93.98 0)
 			(effects
 				(font

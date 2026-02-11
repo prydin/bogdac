@@ -1,3 +1,6 @@
 *.bak
 *.zip
 *.zip
+kicad/\#auto_saved_files\#
+kicad/_autosave-dac.kicad_pcb
+kicad/_autosave-dac.kicad_sch
