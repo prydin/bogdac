@@ -11,8 +11,8 @@ based on OPA1612. The +/- 12V power for the analog section is provided by a TPS7
 power input or from the 12V rail by installing a jumper. Please note that nothing should be plugged into the 5V inlet if the jumper is installed.
 
 ## Schematic
-![Digital schematic](images/digital-schematic.jpg)
-![Analog schematic](images/analog-schematic.jpg)
+![Digital schematic](images/digital-schematic.png)
+![Analog schematic](images/analog-schematic.png)
 
 ## More to come...
 I will provide more information as time permits. For now, feel free to check out the KiCAD schematic and PCB!
