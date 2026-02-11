@@ -14,5 +14,17 @@ power input or from the 12V rail by installing a jumper. Please note that nothin
 ![Digital schematic](images/digital-schematic.png)
 ![Analog schematic](images/analog-schematic.png)
 
-## More to come...
-I will provide more information as time permits. For now, feel free to check out the KiCAD schematic and PCB!
+## Test results
+I tested this using a QA403. While this is a superb piece of gear, it has its limitations compared to test equipment that costs 100 times more. Because of this, the lower bound of the THD I can measure is about 0.0001% and the lowest noise 
+floor is just above -150dBV. In fact, the harmonic profile of a loopback measurement looks very similar to the results I'm getting, so my hypothesis is that almost all noise and distortion you see comes from the measurement setup and 
+not the circuit.
+
+A 1kHz tone at full volume yields this spectrum. The THD is about 0.00013# and the SNR sits at about 113dB. I think the actual numbers are a lot better. Anyone who wants to lend me a $50,000 audio analyzer? :)
+<img width="2029" height="1195" alt="image" src="https://github.com/user-attachments/assets/56b832c0-4f5a-437d-980b-7304836360bf" />
+
+Another interesting measurement is looking at the idle noise. This is the DAC fully enabled, but without an input signal. I'm running the board on a cheap lab supply. As you can see, there's virtually no hum and very low noise.
+You can thank those fancy regulators for that! 
+<img width="2024" height="1190" alt="image" src="https://github.com/user-attachments/assets/ccf800aa-48ae-4baa-9dec-7bb86ec4c20a" />
+
+
+
